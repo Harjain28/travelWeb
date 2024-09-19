@@ -20,7 +20,7 @@ export default function TrendingDestinations4() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -39,7 +39,7 @@ export default function TrendingDestinations4() {
           {destinationsFive.map((elm, i) => (
             <div key={i} className="col-xl-2 col-lg-3 col-md-4 col-6">
               <Link
-                href="/tour-list-1"
+                href="/tours"
                 className="featureCard -type-7 -hover-image-scale"
               >
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">

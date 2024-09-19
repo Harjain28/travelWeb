@@ -20,7 +20,7 @@ export default function TrendingDestinations3() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-up"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -39,7 +39,7 @@ export default function TrendingDestinations3() {
           {destinationCards2.map((elm, i) => (
             <div key={i} className="col-lg-3 col-sm-6">
               <Link
-                href="/tour-list-1"
+                href="/tours"
                 className="featureCard -type-6 -hover-image-scale"
               >
                 <div className="featureCard__image -hover-image-scale__image rounded-12">

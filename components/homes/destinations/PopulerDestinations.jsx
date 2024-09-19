@@ -16,7 +16,7 @@ export default function PopulerDestinations() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "

@@ -177,7 +177,7 @@ export default function TourList3() {
             {tourDataThree.map((elm, i) => (
               <div key={i} className="col-lg-3 col-sm-6">
                 <Link
-                  href={`/tour-single-1/${elm.id}`}
+                  href={`/tours-detail/${elm.id}`}
                   className="tourCard -type-1 py-10 px-10 border-1 rounded-12  -hover-shadow"
                 >
                   <div className="tourCard__header">

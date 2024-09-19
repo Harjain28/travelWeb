@@ -8,7 +8,7 @@ export const homes = [
   { id: 17, title: "Home 07", href: "/home-7" },
   { id: 18, title: "Home 08", href: "/home-8" },
   { id: 19, title: "Home 09", href: "/home-9" },
-  { id: 110, title: "Home 10", href: "/home-10" },
+  { id: 110, title: "Home 10", href: "/home0" },
 ];
 
 export const tours = [
@@ -16,23 +16,23 @@ export const tours = [
     id: 21,
     title: "Tour List Style",
     links: [
-      { id: 211, title: "Tour list 1", href: "/tour-list-1" },
+      { id: 211, title: "Tour list 1", href: "/tours" },
       { id: 212, title: "Tour list 2", href: "/tour-list-2" },
-      { id: 213, title: "Tour list 3", href: "/tour-list-3" },
+      { id: 213, title: "Tour list 3", href: "/tours" },
       { id: 214, title: "Tour list 4", href: "/tour-list-4" },
       { id: 215, title: "Tour list 5", href: "/tour-list-5" },
       { id: 216, title: "Tour list 6", href: "/tour-list-6" },
       { id: 217, title: "Tour list 7", href: "/tour-list-7" },
       { id: 218, title: "Tour list 8", href: "/tour-list-8" },
       { id: 219, title: "Tour list 9", href: "/tour-list-9" },
-      { id: 220, title: "Tour list 10", href: "/tour-list-10" },
+      { id: 220, title: "Tour list 10", href: "/tours0" },
     ],
   },
   {
     id: 22,
     title: "Tour Single Style",
     links: [
-      { id: 221, title: "Tour single 1", href: "/tour-single-1/3" },
+      { id: 221, title: "Tour single 1", href: "/tours-detail/3" },
       { id: 222, title: "Tour single 2", href: "/tour-single-2/3" },
       { id: 223, title: "Tour single 3", href: "/tour-single-3/3" },
       { id: 224, title: "Tour single 4", href: "/tour-single-4/3" },
@@ -64,9 +64,9 @@ export const pages = [
     id: 52,
     title: "Blog",
     subnav: [
-      { id: 521, title: "Blog list 1", href: "/blog-list-1" },
+      { id: 521, title: "Blog list 1", href: "/blogs" },
       { id: 522, title: "Blog list 2", href: "/blog-list-2" },
-      { id: 523, title: "Blog list 3", href: "/blog-list-3" },
+      { id: 523, title: "Blog list 3", href: "/blogs" },
       { id: 524, title: "Blog single", href: "/blog-single/4" },
     ],
   },

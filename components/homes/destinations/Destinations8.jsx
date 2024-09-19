@@ -16,7 +16,7 @@ export default function Destinations8() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -34,7 +34,7 @@ export default function Destinations8() {
         >
           {destinations11.map((elm, i) => (
             <div key={i} className="col-xl-3 col-lg-4 col-md-6">
-              <Link href="/tour-list-1" className="featureCard -type-9">
+              <Link href="/tours" className="featureCard -type-9">
                 <div className="featureCard__image">
                   <Image
                     width={165}

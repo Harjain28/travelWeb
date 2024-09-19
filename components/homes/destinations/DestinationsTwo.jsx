@@ -16,7 +16,7 @@ export default function DestinationsTwo() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -34,7 +34,7 @@ export default function DestinationsTwo() {
         >
           {destinationsTwo.map((elm, i) => (
             <div key={i} className="col-xl-2 col-lg-3 col-md-4 col-6">
-              <Link href="/tour-list-1" className="-hover-image-scale">
+              <Link href="/tours" className="-hover-image-scale">
                 <div className="ratio ratio-19:21 rounded-12 -hover-image-scale__image">
                   <Image
                     width={260}

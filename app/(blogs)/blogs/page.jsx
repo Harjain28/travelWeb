@@ -1,10 +1,10 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import Hero1 from "@/components/blogs/Hero1";
-import BlogList2 from "@/components/blogs/BlogList2";
+import BlogList3 from "@/components/blogs/BlogList3";
 
 export const metadata = {
-  title: "Blog-list-2 || ViaTour - Travel & Tour React NextJS Template",
+  title: "blogs || ViaTour - Travel & Tour React NextJS Template",
   description: "ViaTour - Travel & Tour React NextJS Template",
 };
 
@@ -14,8 +14,8 @@ export default function page() {
       <main>
         <Header1 />
         <Hero1 />
-        <BlogList2 />
-        <FooterOne />
+        <BlogList3 />
+        <FooterSeven />
       </main>
     </>
   );

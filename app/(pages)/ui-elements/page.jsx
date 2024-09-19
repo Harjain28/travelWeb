@@ -1,4 +1,4 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import UiElements from "@/components/pages/uiElements";
 import PageHeader from "@/components/pages/uiElements/PageHeader";
@@ -16,7 +16,7 @@ export default function page() {
         <Header1 />
         <PageHeader />
         <UiElements />
-        <FooterOne />
+        <FooterSeven />
       </main>
     </>
   );

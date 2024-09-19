@@ -1,14 +1,14 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import PageHeader from "@/components/tourSingle/PageHeader";
 import TourSlider from "@/components/tourSingle/TourSlider";
-import SingleFour from "@/components/tourSingle/pages/SingleFour";
+import SingleOne from "@/components/tourSingle/pages/SingleOne";
 import { allTour } from "@/data/tours";
 
 import React from "react";
 
 export const metadata = {
-  title: "Tour-single-4 || ViaTour - Travel & Tour React NextJS Template",
+  title: "tours-detail || ViaTour - Travel & Tour React NextJS Template",
   description: "ViaTour - Travel & Tour React NextJS Template",
 };
 
@@ -18,12 +18,14 @@ export default function page({ params }) {
 
   return (
     <>
-      <Header1 />
-      <PageHeader />
+      <main>
+        <Header1 />
+        <PageHeader />
 
-      <SingleFour tour={tour} />
-      <TourSlider />
-      <FooterOne />
+        <SingleOne tour={tour} />
+        <TourSlider />
+        <FooterSeven />
+      </main>
     </>
   );
 }

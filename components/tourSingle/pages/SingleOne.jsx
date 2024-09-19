@@ -45,10 +45,10 @@ export default function SingleOne({ tour }) {
 
               <RoadMap2 />
 
-              <h2 className="text-30 mt-60 mb-30">Tour Map</h2>
+              {/* <h2 className="text-30 mt-60 mb-30">Tour Map</h2>
               <div className="mapTourSingle">
                 <Map />
-              </div>
+              </div> */}
 
               <div className="line mt-60 mb-60"></div>
 

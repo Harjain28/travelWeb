@@ -18,7 +18,7 @@ export default function Style2() {
           {tourData.slice(0, 4).map((elm, i) => (
             <div key={i} className="col-lg-3 col-sm-6">
               <Link
-                href={`/tour-single-1/${elm.id}`}
+                href={`/tours-detail/${elm.id}`}
                 className="tourCard -type-1 d-block border-1 bg-white hover-shadow-1 overflow-hidden rounded-12 bg-white -hover-shadow"
               >
                 <div className="tourCard__header">

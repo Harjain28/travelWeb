@@ -1,4 +1,4 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import Login from "@/components/pages/Login";
 import React from "react";
@@ -14,7 +14,7 @@ export default function page() {
       <main>
         <Header1 />
         <Login />
-        <FooterOne />
+        <FooterSeven />
       </main>
     </>
   );

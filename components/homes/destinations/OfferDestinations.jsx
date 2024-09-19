@@ -16,7 +16,7 @@ export default function OfferDestinations() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-up"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -35,7 +35,7 @@ export default function OfferDestinations() {
           {destinationOffers.map((elm, i) => (
             <div key={i} className="col-xl-3 col-lg-4 col-sm-6">
               <Link
-                href="/tour-list-1"
+                href="/tours"
                 className="d-flex items-center -hover-image-scale"
               >
                 <div className="size-100 -hover-image-scale__image rounded-full">

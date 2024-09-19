@@ -20,7 +20,7 @@ export default function DestinationsFive() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-left"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -39,7 +39,7 @@ export default function DestinationsFive() {
           {destinationCards.map((elm, i) => (
             <div key={i} className="w-1/5 lg:w-1/3 md:w-1/2">
               <Link
-                href="/tour-list-1"
+                href="/tours"
                 className="featureCard -type-4 -hover-image-scale"
               >
                 <div className="featureCard__image ratio ratio-3:4 -hover-image-scale__image rounded-12">

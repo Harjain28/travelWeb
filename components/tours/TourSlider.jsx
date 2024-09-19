@@ -21,7 +21,7 @@ export default function TourSlder() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               className="buttonArrow d-flex items-center "
             >
               <span>See all</span>
@@ -63,7 +63,7 @@ export default function TourSlder() {
                 {tourData.map((elm, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      href={`/tour-single-1/${elm.id}`}
+                      href={`/tours-detail/${elm.id}`}
                       className="tourCard -type-1 py-10 px-10 border-1 rounded-12 bg-white -hover-shadow"
                     >
                       <div className="tourCard__header">

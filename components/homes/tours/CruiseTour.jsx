@@ -25,7 +25,7 @@ export default function CruiseTour() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -69,7 +69,7 @@ export default function CruiseTour() {
                 {tourData.map((elm, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      href={`/tour-single-1/${elm.id}`}
+                      href={`/tours-detail/${elm.id}`}
                       className="tourCard -type-1 d-block bg-white"
                     >
                       <div className="tourCard__header">

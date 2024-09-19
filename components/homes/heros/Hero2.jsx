@@ -258,7 +258,7 @@ export default function Hero2() {
                           data-aos-delay="200"
                           className="button -md -dark-1 bg-white text-accent-1 mt-30"
                         >
-                          <Link href="/tour-list-1">
+                          <Link href="/tours">
                             <span>Book Now</span>
                             <i className="icon-arrow-top-right ml-10"></i>
                           </Link>

@@ -18,7 +18,7 @@ export default function Style5() {
           {tourData.slice(0, 4).map((elm, i) => (
             <div key={i} className="col-lg-3 col-md-6">
               <Link
-                href={`/tour-single-1/${elm.id}`}
+                href={`/tours-detail/${elm.id}`}
                 className="tourCard -type-1 d-block bg-white"
               >
                 <div className="tourCard__header">

@@ -117,7 +117,7 @@ export default function TourSlider2() {
                 {filtered.map((elm, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      href={`/tour-single-1/${elm.id}`}
+                      href={`/tours-detail/${elm.id}`}
                       className="tourCard -type-1 d-block border-1 bg-white hover-shadow-1 overflow-hidden rounded-12 bg-white -hover-shadow"
                     >
                       <div className="tourCard__header">

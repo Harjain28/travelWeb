@@ -118,7 +118,7 @@ export default function FeaturedTrips() {
                 {filtered.map((elm, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      href={`/tour-single-1/${elm.id}`}
+                      href={`/tours-detail/${elm.id}`}
                       className="tourCard -type-1 d-block bg-white"
                     >
                       <div className="tourCard__header">

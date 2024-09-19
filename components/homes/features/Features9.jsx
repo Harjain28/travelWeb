@@ -23,7 +23,7 @@ export default function Features9() {
             </p>
 
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="button -md -dark-1 bg-accent-1 text-white mt-30 md:mt-20"

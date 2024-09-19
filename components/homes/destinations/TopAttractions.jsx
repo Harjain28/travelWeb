@@ -16,7 +16,7 @@ export default function TopAttractions() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -35,7 +35,7 @@ export default function TopAttractions() {
           {destinationsThree.map((elm, i) => (
             <div key={i} className="col-lg-4 col-sm-6">
               <Link
-                href="/tour-list-1"
+                href="/tours"
                 className="d-flex items-center -hover-image-scale"
               >
                 <div className="size-100 relative rounded-12 -hover-image-scale__image">

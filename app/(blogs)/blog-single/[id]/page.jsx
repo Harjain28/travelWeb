@@ -1,4 +1,4 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import Hero1 from "@/components/blogs/Hero1";
 import BlogSingle from "@/components/blogs/BlogSingle";
@@ -19,7 +19,7 @@ export default function page({ params }) {
         <Header1 />
         <Hero1 blog={blog} />
         <BlogSingle />
-        <FooterOne />
+        <FooterSeven />
       </main>
     </>
   );

@@ -21,7 +21,7 @@ export default function ArticlesOne() {
 
           <div className="col-auto">
             <Link
-              href={"/blog-list-1"}
+              href={"/blogs"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center  "

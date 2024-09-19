@@ -28,7 +28,7 @@ export default function Features8() {
                   </h4>
 
                   <button className="button -md -accent-1 bg-white">
-                    <Link href={"/tour-list-1"}>
+                    <Link href={"/tours"}>
                       See activities
                       <i className="icon-arrow-top-right ml-10"></i>
                     </Link>

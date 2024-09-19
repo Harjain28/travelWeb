@@ -50,7 +50,7 @@ export default function TourSlider5() {
                   {tourData.map((elm, i) => (
                     <SwiperSlide key={i}>
                       <Link
-                        href={`/tour-single-1/${elm.id}`}
+                        href={`/tours-detail/${elm.id}`}
                         className="tourCard -type-3 -hover-image-scale"
                       >
                         <div className="tourCard__image ratio ratio-41:45 rounded-12 -hover-image-scale__image">

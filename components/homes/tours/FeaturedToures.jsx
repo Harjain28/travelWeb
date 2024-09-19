@@ -21,7 +21,7 @@ export default function FeaturedToures() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -40,7 +40,7 @@ export default function FeaturedToures() {
           {tourData.map((elm, i) => (
             <div key={i} className="col-lg-3 col-md-6">
               <Link
-                href={`/tour-single-1/${elm.id}`}
+                href={`/tours-detail/${elm.id}`}
                 className="tourCard -type-1 d-block border-1 bg-white hover-shadow-1 overflow-hidden rounded-12  -hover-shadow"
               >
                 <div className="tourCard__header">

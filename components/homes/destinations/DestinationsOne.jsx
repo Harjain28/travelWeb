@@ -20,7 +20,7 @@ export default function DestinationsOne() {
 
           <div data-aos="fade-up" className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               className="buttonArrow d-flex items-center "
             >
               <span>See all</span>

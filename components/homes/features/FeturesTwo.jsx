@@ -40,7 +40,7 @@ export default function FeturesTwo() {
                 data-aos-delay=""
                 className="button -md -dark-1 bg-accent-1 text-white mt-60 md:mt-30"
               >
-                <Link href={"/tour-list-1"}>
+                <Link href={"/tours"}>
                   Explore Our Tours
                   <i className="icon-arrow-top-right ml-10"></i>
                 </Link>

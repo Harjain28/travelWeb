@@ -42,7 +42,7 @@ export default function TourList1() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               className="buttonArrow d-flex items-center "
             >
               <span>See all</span>
@@ -215,7 +215,7 @@ export default function TourList1() {
                       </div>
 
                       <button className="button -outline-accent-1 text-accent-1">
-                        <Link href={`/tour-single-1/${elm.id}`}>
+                        <Link href={`/tours-detail/${elm.id}`}>
                           View Details
                         </Link>
                         <i className="icon-arrow-top-right ml-10"></i>

@@ -71,7 +71,7 @@ export default function Header1() {
 
           <div className="headerMobile__right">
             <button
-              onClick={() => pageNavigate("/tour-list-1")}
+              onClick={() => pageNavigate("/tours")}
               className="d-flex"
             >
               <i className="icon-search text-18"></i>

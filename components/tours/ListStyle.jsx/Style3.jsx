@@ -18,7 +18,7 @@ export default function Style3() {
           {tourData.slice(0, 3).map((elm, i) => (
             <div key={i} className="col-lg-4 col-sm-6">
               <Link
-                href={`/tour-single-1/${elm.id}`}
+                href={`/tours-detail/${elm.id}`}
                 className="tourCard -type-3 -hover-image-scale"
               >
                 <div className="tourCard__image ratio ratio-41:45 rounded-12 -hover-image-scale__image">

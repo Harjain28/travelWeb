@@ -1,7 +1,7 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,7 +91,11 @@ export default function Hero9() {
           <div className="swiper-wrapper">
             <Swiper
               className="w-100"
-              modules={[Navigation]}
+              modules={[Navigation, Autoplay]}
+              autoplay={{
+                delay: 3000,  // Slide change delay in milliseconds
+                disableOnInteraction: false,  // Allow user interactions like swiping
+              }}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
               }}
@@ -155,7 +159,7 @@ export default function Hero9() {
                           </div>
 
                           <Link
-                            href={"/tour-list-1"}
+                            href={"/tours"}
                             className="hero__button mt-30"
                           >
                             <button className="button -md -outline-white text-white">

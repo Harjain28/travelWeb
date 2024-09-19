@@ -16,7 +16,7 @@ export default function TourTypesTwo() {
 
           <div className="col-auto">
             <Link
-              href={"/tour-list-1"}
+              href={"/tours"}
               data-aos="fade-right"
               data-aos-delay=""
               className="buttonArrow d-flex items-center "
@@ -35,7 +35,7 @@ export default function TourTypesTwo() {
           {destinationsNine.map((elm, i) => (
             <div key={i} className="col-xl-2 col-md-4 col-6">
               <Link
-                href={"/tour-list-1"}
+                href={"/tours"}
                 className="featureCard -type-5 -hover-accent-2"
               >
                 <div className="featureCard__icon">

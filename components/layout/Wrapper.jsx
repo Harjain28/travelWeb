@@ -6,7 +6,7 @@ import Aos from "aos";
 export default function Wrapper({ children }) {
   useEffect(() => {
     Aos.init({
-      duration: 800,
+      duration: 200,
       once: true,
     });
   }, []);

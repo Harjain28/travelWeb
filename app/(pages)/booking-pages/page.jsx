@@ -1,4 +1,4 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import BookingPages from "@/components/pages/BookingPages";
 import React from "react";
@@ -14,7 +14,7 @@ export default function page() {
       <main>
         <Header1 />
         <BookingPages />
-        <FooterOne />
+        <FooterSeven />
       </main>
     </>
   );
