@@ -1,0 +1,90 @@
+import React from "react";
+import Paymentcards from "../components/Paymentcards";
+import FooterLinks from "../components/FooterLinks";
+import Socials from "../components/Socials";
+import Image from "next/image";
+
+export default function FooterSeven() {
+  return (
+    <footer className="footer -type-1 -round">
+      <div className="footer__main">
+        <div className="footer__bg bg-accent-1-05 rounded-24"></div>
+
+        <div className="container">
+          <div className="footer__info">
+            <div className="row y-gap-20 justify-between">
+              <div className="col-auto">
+                <div className="row y-gap-20 items-center">
+                  <div className="col-auto">
+                    <i className="icon-headphone text-50"></i>
+                  </div>
+
+                  <div className="col-auto">
+                    <div className="text-20 fw-500">
+                      Speak to our expert at
+                      <span className="text-accent-1"> 1-800-453-6744</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-auto">
+                <div className="footerSocials">
+                  <div className="footerSocials__title">Follow Us</div>
+
+                  <div className="footerSocials__icons">
+                    <Socials />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer__content">
+            <div className="row y-gap-40 justify-between">
+              <div className="col-lg-5 col-md-6">
+                <h4 className="text-20 fw-500">Alpha Lifestyle
+                </h4>
+
+                <div className="y-gap-10 mt-20">
+                  <p>Welcome to Alpha Lifestyle, where we offer the best vacation experience for our guests. Our team is dedicated to providing exceptional service and ensuring your stay with us is unforgettable.</p>
+                </div>
+              </div>
+
+              <FooterLinks />
+
+              <div className="col-lg-3 col-md-6">
+                <h4 className="text-20 fw-500">Address</h4>
+
+                <div className="y-gap-10 mt-20">
+                  <a className="d-block" href="#">
+                    328 Queensberry Street, North Melbourne VIC3051, Australia.
+                  </a>
+                  <a className="d-block" href="#">
+                    hi@viatours.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="footer__bottom">
+          <div className="row y-gap-5 justify-center items-center">
+            <div className="col-auto m-auto">
+              <div>© Copyright Viatours {new Date().getFullYear()}</div>
+            </div>
+
+            {/* <div className="col-auto">
+              <div className="footer__images d-flex items-center x-gap-10">
+                <Paymentcards />
+              </div>
+            </div> */}
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
