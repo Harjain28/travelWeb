@@ -209,12 +209,12 @@ export default function Invoice() {
                 <div className="row x-gap-60 y-gap-10 justify-center">
                   <div className="col-auto">
                     <a href="#" className="text-14">
-                      www.tourz.com
+                      www.alphalifestylez.com
                     </a>
                   </div>
                   <div className="col-auto">
                     <a href="#" className="text-14">
-                      invoice@tourz.com
+                      invoice@alphalifestylez.com
                     </a>
                   </div>
                   <div className="col-auto">

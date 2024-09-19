@@ -127,7 +127,7 @@ export default function Hero9() {
                       <div className="row items-center justify-between">
                         <div className="col-xl-7 col-lg-8">
                           <div
-                            data-aos="fade-up"
+                            // data-aos="fade-up"
                             data-aos-delay="100"
                             className="hero__subtitle text-18 fw-500 text-white mb-10"
                           >
@@ -135,7 +135,7 @@ export default function Hero9() {
                           </div>
 
                           <h1
-                            data-aos="fade-up"
+                            // data-aos="fade-up"
                             data-aos-delay="150"
                             className="hero__title text-white"
                           >
@@ -145,9 +145,9 @@ export default function Hero9() {
                           </h1>
 
                           <div
-                            data-aos="fade-up"
+                            // data-aos="fade-up"
                             data-aos-delay="300"
-                            className="hero__text text-white mt-10"
+                            className="hero__text text-white mt-10 mb-10"
                           >
                             {elm.text.split(" ").slice(0, 10).join(" ")}
                             <br className="lg:d-none" />

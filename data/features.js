@@ -15,7 +15,7 @@ export const features = [
     id: 3,
     iconSrc: "/img/icons/1/diamond.svg",
     title: "Quality at our core",
-    text: "High-quality standards. Millions of reviews. A tourz company.",
+    text: "High-quality standards. Millions of reviews. A alphalifestylez company.",
   },
   {
     id: 4,

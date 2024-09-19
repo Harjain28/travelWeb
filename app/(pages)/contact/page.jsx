@@ -1,4 +1,4 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
 import ContactForm from "@/components/pages/contact/ContactForm";
 import Locations from "@/components/pages/contact/Locations";
@@ -15,11 +15,11 @@ export default function page() {
     <>
       <main>
         <Header1 />
-        <Map />
-        <Locations />
+        {/* <Map />
+        <Locations /> */}
         <ContactForm />
 
-        <FooterOne />
+        <FooterSeven />
       </main>
     </>
   );

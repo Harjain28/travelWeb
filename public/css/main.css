@@ -3120,6 +3120,8 @@ h1, h2, h3, h4, h5, h6 {
 .header.-type-10 .header__search {
   display: flex;
   align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
 }
 
 .header.-type-10 .header__search i {
@@ -10119,7 +10121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .layout-pt-lg {
-  padding-top: 90px;
+  padding-top: 140px;
 }
 
 .layout-pb-lg {
@@ -10207,7 +10209,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   .layout-pt-lg {
-    padding-top: 30px;
+    padding-top: 60px;
   }
   .layout-pb-lg {
     padding-bottom: 30px;

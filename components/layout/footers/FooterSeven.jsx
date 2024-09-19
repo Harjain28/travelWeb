@@ -58,10 +58,10 @@ export default function FooterSeven() {
 
                 <div className="y-gap-10 mt-20">
                   <a className="d-block" href="#">
-                    328 Queensberry Street, North Melbourne VIC3051, Australia.
+                    Richmond, TX 77406
                   </a>
                   <a className="d-block" href="#">
-                    hi@viatours.com
+                    alphalifestyle@alphalifestylez.com
                   </a>
                 </div>
               </div>
