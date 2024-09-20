@@ -12,6 +12,13 @@
   z-index: 999;
 }
 
+.background_header {
+  width: 100%;
+  height: 88px;
+  background: #000;
+  position: fixed;
+}
+
 
 .ratio {
   position: relative;
@@ -737,11 +744,11 @@ button:focus {
   color: white !important;
 }
 
-.button.-dark-1:hover {
+/* .button.-dark-1:hover {
   border-color: var(--color-dark-1);
   background-color: var(--color-dark-1) !important;
   color: white !important;
-}
+} */
 
 .button.-outline-dark-1 {
   border-color: var(--color-dark-1);
@@ -2089,7 +2096,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .headerDropdown__button:hover {
-  background-color: var(--color-light-1);
+  background-color: #eb662b;
 }
 
 .headerDropdown__content {
@@ -2259,6 +2266,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   .headerMobile__right {
     display: flex;
+  }
+  
+  .headerMobile__right button .text-18{
+    color: #fff;
   }
 }
 
@@ -3091,7 +3102,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   height: 88px;
-  padding: 0 60px;
+  padding: 0 0px;
 }
 
 @media (max-width: 767px) {
@@ -3320,7 +3331,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 220px;
   padding-bottom: 220px;
-  margin-top: 88px;
+  margin-top: 130px;
   z-index: 5;
 }
 
@@ -3417,7 +3428,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero.-type-2 {
   position: relative;
-  margin-top: 88px;
+  margin-top: 130px;
   z-index: 5;
 }
 
@@ -4274,7 +4285,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0px 0px 12px 12px;
 }
 
 @media (max-width: 991px) {
@@ -5375,7 +5386,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 190px;
   padding-bottom: 200px;
-  margin-top: 88px;
+  margin-top: 130px;
 }
 
 @media (max-width: 767px) {
@@ -5465,7 +5476,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 140px;
   padding-bottom: 100px;
-  margin-top: 88px;
+  margin-top: 130px;
 }
 
 @media (max-width: 767px) {
@@ -5632,7 +5643,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 88px;
+  margin-top: 130px;
 }
 
 @media (max-width: 767px) {
@@ -5810,6 +5821,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 0px 1px;
   transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
   padding: 0.1% 0px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .tourCard:hover .tourCard__title span {
@@ -10187,6 +10204,9 @@ h1, h2, h3, h4, h5, h6 {
   .layout-pb-xxl {
     padding-bottom: 120px;
   }
+  .background_header {
+      height: 58px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -10208,9 +10228,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
-  .layout-pt-lg {
+  /* .layout-pt-lg {
     padding-top: 60px;
-  }
+  } */
   .layout-pb-lg {
     padding-bottom: 30px;
   }
@@ -10291,6 +10311,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .lg\:w-1\/1 {
     width: 100% !important;
+  }
+  .background_header {
+      height: 58px;
   }
 }
 
@@ -10695,7 +10718,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-white {
-  color: var(--color-white);
+  color: var(--color-white) !important;
 }
 
 .text-black {
@@ -12350,7 +12373,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mt-header {
-  margin-top: 88px;
+  margin-top: 130px;
 }
 
 @media (max-width: 767px) {

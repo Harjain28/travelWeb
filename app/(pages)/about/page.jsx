@@ -20,6 +20,7 @@ export default function page() {
   return (
     <>
       <main>
+      <div className="background_header"></div>
         <Header1 />
         <Hero />
         <Information />

@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Register() {
   return (
-    <section className="mt-header layout-pt-lg layout-pb-lg">
+    <section className="layout-pt-lg layout-pb-lg">
       <div className="container">
         <div className="row justify-center">
           <div className="col-xl-6 col-lg-7 col-md-9">
