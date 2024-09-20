@@ -16,6 +16,7 @@ export default function page({ params }) {
   return (
     <>
       <main>
+      <div className="background_header"></div>
         <Header1 />
         <Hero1 blog={blog} />
         <BlogSingle />

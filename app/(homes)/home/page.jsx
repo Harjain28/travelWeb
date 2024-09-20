@@ -11,6 +11,7 @@ import Tour1 from "@/components/homes/tours/Tour1";
 import TourSlider5 from "@/components/homes/tours/TourSlider5";
 import FooterSeven from "@/components/layout/footers/FooterSeven";
 import Header1 from "@/components/layout/header/Header1";
+import Faq from "@/components/pages/helpCenter/Faq";
 import React from "react";
 
 export const metadata = {
@@ -34,6 +35,7 @@ export default function page() {
           <Tour1 />
           <TestimonialsFive />
           <ArticlesOne />
+          <Faq />
           <FooterSeven />
         </div>
       </main>

@@ -11,6 +11,7 @@ export default function NotFound() {
   return (
     <>
       <main>
+        <div className="background_header"></div>
         <Header1 />
         <section className="nopage mt-header">
           <div className="container">

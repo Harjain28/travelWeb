@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <main>
-      <div className="background_header"></div>
+        <div className="background_header"></div>
         <Header1 />
         <Hero1 />
         <BlogList3 />
