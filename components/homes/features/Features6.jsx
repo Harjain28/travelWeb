@@ -26,7 +26,7 @@ export default function Features6() {
                   data-aos-delay=""
                   className="text-30 md:text-24 fw-700"
                 >
-                  Why choose Alphalifestylez
+                  Why choose Alphalifestyle
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="">
                   Most viewed and all-time top-selling services

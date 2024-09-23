@@ -61,7 +61,7 @@ export default function FooterSeven() {
                     Richmond, TX 77406
                   </a>
                   <a className="d-block" href="#">
-                    alphalifestyle@alphalifestylez.com
+                    alphalifestyle@Alphalifestyle.com
                   </a>
                 </div>
               </div>

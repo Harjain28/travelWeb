@@ -27,7 +27,7 @@ export default function Features10() {
               className="text-30 md:text-24"
             >
               Why choose
-              <br /> alphalifestylez
+              <br /> Alphalifestyle
             </h2>
 
             <div

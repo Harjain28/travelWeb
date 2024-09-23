@@ -3,7 +3,7 @@ const sections = [
     title: "Company",
     links: [
       { id: 1, text: "About Us", href: "#" },
-      { id: 2, text: "alphalifestylez Reviews", href: "#" },
+      { id: 2, text: "Tours Reviews", href: "#" },
       { id: 3, text: "Contact Us", href: "#" },
       { id: 4, text: "Travel Guides", href: "#" },
       

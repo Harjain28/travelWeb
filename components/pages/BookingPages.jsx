@@ -119,7 +119,7 @@ export default function BookingPages() {
                   <div className="row y-gap-20 items-center justify-between">
                     <div className="col-auto">
                       <div className="text-14">
-                        By proceeding with this booking, I agree to alphalifestylez Terms
+                        By proceeding with this booking, I agree to Alphalifestyle Terms
                         of Use and Privacy Policy.
                       </div>
                     </div>
@@ -296,7 +296,7 @@ export default function BookingPages() {
                   System, your order was submitted successfully!
                 </h2>
                 <div className="mt-10">
-                  Booking details has been sent to: booking@alphalifestylez.com
+                  Booking details has been sent to: booking@Alphalifestyle.com
                 </div>
               </div>
 

@@ -61,7 +61,7 @@ export default function Header1() {
                 priority
               /> */}
 
-              Alphalifestylez
+              Alphalifestyle
             </Link>
 
             <div className="xl:d-none ml-30">

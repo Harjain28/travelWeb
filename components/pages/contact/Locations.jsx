@@ -3,25 +3,25 @@ const locations = [
     id: 1,
     title: "North America",
     address: "1 Dundas St W Suite 2500 Toronto ON M5G 1Z3, Canada",
-    contact: "1-800-453-6744 canada@alphalifestylez.com",
+    contact: "1-800-453-6744 canada@Alphalifestyle.com",
   },
   {
     id: 2,
     title: "Australia",
     address: "123 Smith St, Melbourne, VIC 3000, Australia",
-    contact: "61-800-123-456 australia@alphalifestylez.com",
+    contact: "61-800-123-456 australia@Alphalifestyle.com",
   },
   {
     id: 3,
     title: "Europe",
     address: "45 Rue du Faubourg Saint-Antoine, 75011 Paris, France",
-    contact: "33-800-987-654 europe@alphalifestylez.com",
+    contact: "33-800-987-654 europe@Alphalifestyle.com",
   },
   {
     id: 4,
     title: "Asia",
     address: "Tokyo, Japan",
-    contact: "81-800-567-890 asia@alphalifestylez.com",
+    contact: "81-800-567-890 asia@Alphalifestyle.com",
   },
 ];
 
